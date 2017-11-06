@@ -9,6 +9,7 @@ Write-Output "Hola $nombre, estoy pensando en un numero entre 1 y 50, tienes $ma
 
 While($intentos -lt $maximos_intentos){
     $estimacion=Read-Host -Prompt "Adivina"
+    $estimacion=[int]$estimacion
     $intentos=$intentos+1
 
     If($estimacion -lt $numero){
