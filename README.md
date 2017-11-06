@@ -1,1 +1,3 @@
-# Powershell_adivinar_numero
+# Powershell adivinar numero
+
+Pequeño juego de Powershell para adivinar un numero aleatorio
