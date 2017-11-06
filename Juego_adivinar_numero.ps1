@@ -5,7 +5,7 @@ $maximos_intentos=7
 
 $nombre=Read-Host -Prompt "Cual es tu nombre?"
 
-Write-Output "Hola $nombre, estoy pensando en un numero entre 1 y 50, tienes $maximos_intentos para adivinarlo"
+Write-Output "Hola $nombre, estoy pensando en un numero entre 1 y 50, tienes $maximos_intentos intentos para adivinarlo"
 
 While($intentos -lt $maximos_intentos){
     $estimacion=Read-Host -Prompt "Adivina"
